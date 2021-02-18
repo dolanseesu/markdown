@@ -183,3 +183,19 @@ Sometimes needed for yay or pacman
 ```bash
 gpg --keyserver pool.sks-keyservers.net --recv-keys [your key]
 ```
+
+
+
+## Set Monitor Layout with X11 config file
+
+```bash
+Section "Monitor"
+	Identifier	"DP-0"
+	Option		"Primary" "true"
+EndSection
+
+Section "Monitor"
+	Identifier	"HDMI-0"
+	Option		"LeftOf" "DP-0"
+EndSection
+```
