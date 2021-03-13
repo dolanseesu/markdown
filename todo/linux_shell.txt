@@ -105,3 +105,7 @@ Then either restart the machine or rebuild the font cache with fc-cache -f -v
 --- Network Analysis ---
 Use either 'nmap' or 'telnet'
 nmap -p {Port} {IP Adress}      checks if the specified port is open at the destination IP adress
+
+
+--- extract tar files ---
+tar -xvzf <your file>
